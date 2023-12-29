@@ -1,6 +1,6 @@
 # Import module
 from tkinter import *
-from tkinter import messagebox
+import tkinter.messagebox
 
 # Function to capture a task
 def capture_task():
