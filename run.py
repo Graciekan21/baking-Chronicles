@@ -1,17 +1,12 @@
 #Import module
-import tkinter
-import tkinter.messagebox
+import thinter as tk
 
-#The app title
-window = tkinter.Tk()
-window.title('Bakers-to-do-list')
+# Main window
+window = tk.Tk()
 
-#Create a Frame for the Tasks
-task_frame = tkinter.task_frame(window)
-task_frame.pack()
+# Add title
+title = tk.title(root, text="Baking-chronicles!")
+title
 
-# Function to capture a task
-def capture_task():
-    task = input('Enter your task: ')
-    task_list.append(task)
-    print('Task captured successfully!')
+
+
