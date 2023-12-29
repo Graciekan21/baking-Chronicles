@@ -1,5 +1,5 @@
 # Import module
-from tkinter import *
+import tkinter
 import tkinter.messagebox
 
 # Function to capture a task
@@ -10,10 +10,10 @@ def capture_task():
 
 # The app title
 window = tkinter.Tk()
-window.title('Baking-Chronicles-to-do-list')
+window.title('Bakers-to-do-list')
 
 # Create a Frame for the Tasks
-task_frame = tkinter.task_frame()
+task_frame = tkinter.task_frame(window)
 task_frame.pack()
 
 window.mainloop()
