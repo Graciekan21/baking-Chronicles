@@ -1,14 +1,15 @@
-#Import module
-import tkinter as tk
+# Import module
+import tkinter as tk 
+import tkinter.messagebox
 
+# App frame box
 class App(tk.Frame):
-    def __init__(self, master=None):
+    def __init__(self, master):
         super().__init__(master)
         self.pack()
 
-# Add title
-title = tk.title(root, text="Baking-chronicles!")
-title
+        self.entrythingy = tk.Entry()
+        self.entrythingy.pack()
 
 
 
