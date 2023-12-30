@@ -2,14 +2,13 @@
 import tkinter as tk 
 import tkinter.messagebox
 
-# App frame box
-class App(tk.Frame):
-    def __init__(self, master):
-        super().__init__(master)
-        self.pack()
-
-        self.entrythingy = tk.Entry()
-        self.entrythingy.pack()
+def messagebox(msg):
+    window.wm_tkinter.Tk()
+    tkinter.messagebox.showwarning(title='Information', message=msg)
+    window.destroy()
+    messagebox('please enter a task!')
+    print(messagebox)
+    
 
 
 
